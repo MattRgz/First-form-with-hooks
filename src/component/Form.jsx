@@ -21,12 +21,6 @@ const Form = (props) => {
     const[password,setPassword] = useState('')
     const[secondPassword,setSecondPassword] = useState('')
 
-    const createUser = (e) =>{
-        e.preventDefault();
-        const newUser = {firstName,lastName,eMail,password,secondPassword}
-        console.log(`Welcome, ${firstName}`)
-        return(newUser)
-    }
 
     const firstNameHandler=(e)=>{
         setFirstName(e.target.value)
